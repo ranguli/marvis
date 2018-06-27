@@ -25,3 +25,6 @@ Qt Framework Files
 
 .. automodule:: marvis
    :members:
+.. autoclass:: MarvisDialog
+   :members:
+
