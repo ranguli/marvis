@@ -19,13 +19,13 @@
 import os
 import sys
 sys.path.insert(0, os.path.abspath('.'))
+sys.path.insert(0, os.path.abspath('../'))
 
 currentPath = os.path.dirname(os.path.abspath(__file__))
 sourcePath  = os.path.dirname(os.path.dirname(os.path.dirname(currentPath)))
 sys.path.append(sourcePath)
 
 from marvis import marvis 
-from marvis.marvis_dialog import MarvisDialog
 
 # -- General configuration ------------------------------------------------
 

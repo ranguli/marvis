@@ -23,5 +23,6 @@ Developer Documentation
    :caption: Developer Documentation
 
    Installation for Developers <installation>
-   Project Structure <project_structure>
+   Modules <marvis>
    Build Errors / Troubleshooting <troubleshooting>
+   
