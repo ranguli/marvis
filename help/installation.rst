@@ -25,9 +25,12 @@ Refer to the QGIS `docs
 
    mkdir YOURDIR
    cd YOURDIR && git clone https://github.com/qgis/qgis.it  
-   cd QGIS && mkdir build
-   cd build && ccmake .. # Hit the [c] key and the [g] at the menu to generate the defaults.
+   cd QGIS
+   git fetch origin && git checkout release-3_2
+   mkdir build && cd build
+   ccmake .. # Hit the [c] key and the [g] at the menu to generate the defaults.
    make -jX #Where X is your CPU core count
+   # It will be easier to run "make install" too. 
    ./output/bin/qgis
 Build Marvis
 --------------
