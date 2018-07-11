@@ -22,6 +22,3 @@ Qt Framework Files
 
 ``form.ui`` Auto-generated description of the Qt GUI. Translated into Python as ``form.py``
 
-
-.. automodule:: marvis
-   :members:
