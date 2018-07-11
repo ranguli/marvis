@@ -32,6 +32,7 @@ Refer to the QGIS `docs
    make -jX #Where X is your CPU core count
    # It will be easier to run "make install" too. 
    ./output/bin/qgis
+
 Build Marvis
 --------------
 
@@ -39,5 +40,5 @@ Run:
 
 .. code-block:: bash
 
-   pip install -r reqruiements.txt
+   pip install -r requirements.txt
    pb_tool deploy
