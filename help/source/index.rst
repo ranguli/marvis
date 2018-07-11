@@ -11,8 +11,7 @@ User Documentation
 .. toctree::
    :maxdepth: 2
    :numbered:
-   :caption: Developer Documentation
-
+   
    Installation for Users <user/installation>
        
 Developer Documentation
@@ -20,8 +19,7 @@ Developer Documentation
 .. toctree::
    :maxdepth: 2
    :numbered:
-   :caption: Developer Documentation
-
+   
    Installation for Developers <installation>
    Project Structure <project_structure>
 
