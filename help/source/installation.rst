@@ -1,7 +1,6 @@
 Installation
 ============
 
-<<<<<<< HEAD
 Requirements
 ------------
 
@@ -105,4 +104,4 @@ The tool is told exactly what to do using a config file, ``pg_tool.cfg`` in the 
 to troubleshoot the behavior of ``pb_tool`` confirming that the config file is properly set up may be helpful.
 
 The tool also comes with various other helpful features, such as ``clean``
->>>>>>> 26129d2513ad43386c8f9067ef46dd00a9c9af86
+
