@@ -8,6 +8,9 @@ Requirements
 - Python 3
 - pip3
 - Git
+- PyQt5
+- pb_tool
+- virtualenv 
 
 Compile QGIS
 ------------
@@ -36,37 +39,6 @@ Refer to the QGIS `docs
 Build Marvis
 --------------
 
-Run:
-
-.. code-block:: bash
-
-   pip install -r requirements.txt
-   pb_tool deploy
-=======
-Dependencies
--------------
-
-Make sure you install all of the following
-
-Use the general instructions for you OS to install:
-
-- ``python`` Our programming language
-- ``pip`` Our python package manager.
-- ``git`` Our version control system.
-- ``QGIS 2.x`` Our GIS software (or try 3.x and report your findings)
-- ``QtCreator`` The GUI design tool for our GUI framework of choice (Qt)
-
-Install the following using Python's ``pip`` package manager:
-
-- ``PyQT5`` Bindings to use Qt5 with Python
-- ``sphinx`` How we create these pretty docs 
-- ``pb_tool`` Our tool for turning Python code into a QGIS plugin
-
-
-
-Obtaining the Source Code
--------------------------
-
 Ensuring you have ``git`` installed, on a command line, and in the directory you want to store the marvis code, run:
 
 ``git clone https://github.com/ranguli/marvis``
@@ -86,7 +58,6 @@ Compilation is perhaps a bit of a misnomer seen as how we're using an interprete
 are certain files that do need to be collected or converted from another format into Python when
 one is developing plugins for QGIS. The equivalent of a "compiler" for us will be ``pb_tool`` which
 you should have installed with ``pip`` earlier.
-
 
 To only **compile** the plugin, run:
 
