@@ -12,16 +12,20 @@ Requirements
 - pb_tool
 - virtualenv 
 
-Compile QGIS
+(Optional) Compile QGIS 3.x
 ------------
+
+We are compiling QGIS from source because it's helpful to have access to the API code, but mainly 
+because QGIS 3.x is not available in our package manager yet. 
 
 Refer to the QGIS `docs
 <https://github.com/qgis/QGIS/blob/master/INSTALL/>`_ if this overview is too succint. 
 
 .. code-block:: bash
 
-   # After you've installed the dependencies they list ...  
-
+   # Important: install the dependencies they mention before proceeding.
+   # There are a large number of packages required to compile QGIS. 
+   
    cd /usr/local/bin
    sudo ln -s /usr/bin/ccache gcc
    sudo ln -s /usr/bin/ccache g++
