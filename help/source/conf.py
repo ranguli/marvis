@@ -25,8 +25,6 @@ currentPath = os.path.dirname(os.path.abspath(__file__))
 sourcePath  = os.path.dirname(os.path.dirname(os.path.dirname(currentPath)))
 sys.path.append(sourcePath)
 
-from marvis import marvis 
-
 # -- General configuration ------------------------------------------------
 
 # If your documentation needs a minimal Sphinx version, state it here.
