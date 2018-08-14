@@ -11,27 +11,14 @@ User Documentation
 .. toctree::
    :maxdepth: 2
    :numbered:
-<<<<<<< HEAD
    
-=======
-   :caption: Developer Documentation
-
->>>>>>> 26129d2513ad43386c8f9067ef46dd00a9c9af86
-   Installation for Users <user/installation>
-       
 Developer Documentation
 ------------------------
 .. toctree::
    :maxdepth: 2
    :numbered:
-<<<<<<< HEAD
    
-   Installation for Developers <installation>
    Project Structure <project_structure>
-=======
-   :caption: Developer Documentation
->>>>>>> 26129d2513ad43386c8f9067ef46dd00a9c9af86
-
    Installation for Developers <installation>
    Modules <marvis>
    Build Errors / Troubleshooting <troubleshooting>
