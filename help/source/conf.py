@@ -19,7 +19,7 @@
 import os
 import sys
 sys.path.insert(0, os.path.abspath('.'))
-sys.path.insert(0, os.path.abspath('../'))
+sys.path.insert(0, os.path.abspath('..'))
 
 currentPath = os.path.dirname(os.path.abspath(__file__))
 sourcePath  = os.path.dirname(os.path.dirname(os.path.dirname(currentPath)))
@@ -37,10 +37,7 @@ from marvis import marvis
 # extensions coming with Sphinx (named 'sphinx.ext.*') or your custom
 # ones.
 extensions = [
-    'sphinx.ext.autodoc',
-    'sphinx.ext.doctest',
     'sphinx.ext.intersphinx',
-    'sphinx.ext.coverage',
 ]
 
 # Add any paths that contain templates here, relative to this directory.

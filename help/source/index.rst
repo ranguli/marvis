@@ -20,6 +20,5 @@ Developer Documentation
    
    Project Structure <project_structure>
    Installation for Developers <installation>
-   Modules <marvis>
    Build Errors / Troubleshooting <troubleshooting>
    
